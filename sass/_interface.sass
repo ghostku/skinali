@@ -2,6 +2,15 @@ body
     +light
     color: $text-color
 
+.section
+    padding: 100px 0
+    &-title
+        font-size: 30px
+        +bold
+        text-transform: uppercase
+        text-align: center
+    &__title
+        margin-bottom: 100px
 .button-o
     text-transform: uppercase
     padding: 17px 22px
@@ -46,3 +55,7 @@ input[type="checkbox"]
 @media (max-width: 576px)        
     .button-o
         font-size: 10px
+    .section
+        padding: 60px 0
+        &-title
+            font-size: 24px
